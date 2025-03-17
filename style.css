@@ -1,0 +1,30 @@
+*{
+    /*border: 1px blue solid;*/
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#puzzleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#puzzleContainer img{
+    width: 300px;
+}
+
+#inputContainer{
+    margin-top: 40px;
+}
+
+#hintContainer{
+    margin-top: 10px;
+}
+
+#hintContainer p{
+    margin: 2px 0 0 0;
+}

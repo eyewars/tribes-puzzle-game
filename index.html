@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribes Puzzles</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tribes Puzzles</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div id="container"></div>
+        <template id="puzzleTemplate">
+            <div id="puzzleContainer">
+                <h1 id="questionNumber">Question 1:</h1>
+                <h3 id="questionText">What is blablabla?</h3>
+                <img id="questionImage" src="assets/test.png">
+                <div id="inputContainer">
+                    <label>Answer:</label>
+                    <input id="inputField"> 
+                    <button id="inputButton">Try</button>
+                </div>
+                <div id="hintContainer"></div>
+            </div>
+        </template>
+    </body>
+    <script src="game.js"></script>
 </html>
