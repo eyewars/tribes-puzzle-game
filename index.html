@@ -8,17 +8,44 @@
     </head>
     <body>
         <div id="container"></div>
+
+        <template id="startTemplate" class="pageContainer">
+            <div id="startContainer">
+                    <h1>Game Name</h1>
+                <div>
+                    <button id="playButton">Play</button> 
+                </div>
+                
+            </div>
+        </template>
+
+        <template id="hintTemplate">
+            <div id="hintContainer" class="pageContainer">
+                <h1 id="hintNumber">Hint 1:</h1>
+                <h3 id="hintText">You are blah blah blah blah blah blah blah blah blah blah blah</h3>
+                <img id="hintImage">
+                <button id="backButton">Go Back</button>
+            </div>
+        </template>
+        
+
         <template id="puzzleTemplate">
-            <div id="puzzleContainer">
+            <div id="puzzleContainer" class="pageContainer">
                 <h1 id="questionNumber">Question 1:</h1>
                 <h3 id="questionText">What is blablabla?</h3>
-                <img id="questionImage" src="assets/test.png">
+                <img id="questionImage">
                 <div id="inputContainer">
                     <label>Answer:</label>
                     <input id="inputField"> 
                     <button id="inputButton">Try</button>
                 </div>
-                <div id="hintContainer"></div>
+            </div>
+        </template>
+        
+        <template id="victoryTemplate">
+            <div id="victoryContainer" class="pageContainer">
+                <h1 id="victory">You won!</h1>
+                <h3 id="victoryText">Something sometthing somteiong</h3>
             </div>
         </template>
     </body>

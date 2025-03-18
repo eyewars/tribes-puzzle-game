@@ -7,13 +7,15 @@
     justify-content: center;
 }
 
-#puzzleContainer{
+.pageContainer{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-#puzzleContainer img{
+img{
     width: 300px;
 }
 
@@ -21,10 +23,20 @@
     margin-top: 40px;
 }
 
-#hintContainer{
-    margin-top: 10px;
+#startContainer div{
+    display: flex;
+    justify-content: center;
 }
 
-#hintContainer p{
-    margin: 2px 0 0 0;
+#startContainer button{
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+}
+
+#backButton{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 40px;
 }
