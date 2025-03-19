@@ -21,7 +21,7 @@
 
         <template id="hintTemplate">
             <div id="hintContainer" class="pageContainer">
-                <h1 id="hintNumber">Hint 1:</h1>
+                <h1 id="hintTitle">Hint 1:</h1>
                 <h3 id="hintText">You are blah blah blah blah blah blah blah blah blah blah blah</h3>
                 <img id="hintImage">
                 <button id="backButton">Go Back</button>
@@ -31,7 +31,7 @@
 
         <template id="puzzleTemplate">
             <div id="puzzleContainer" class="pageContainer">
-                <h1 id="questionNumber">Question 1:</h1>
+                <h1 id="questionTitle">Question 1:</h1>
                 <h3 id="questionText">What is blablabla?</h3>
                 <img id="questionImage">
                 <div id="inputContainer">
@@ -41,6 +41,26 @@
                 </div>
             </div>
         </template>
+
+        <template id="choiceTemplate">
+            <div id="choiceContainer" class="pageContainer">
+                <h1 id="choiceTitle">Question 1:</h1>
+                <h3 id="choiceText">You are blah blah blah blah blah blah blah blah blah blah blah</h3>
+                <div>
+                    <button id="gotoHintButton">Go to hint</button>
+                    <button id="gotoForwardButton">Continue forward</button> 
+                </div>
+            </div>  
+        </template>
+        
+        <template id="introTemplate">
+            <div id="introContainer" class="pageContainer">
+                <h1 id="introTitle">Super cool intro title</h1>
+                <h3 id="introText">You are blah blah blah blah blah blah blah blah blah blah blah</h3>
+                <button id="introButton">Continue forward</button> 
+            </div> 
+        </template>
+        
         
         <template id="victoryTemplate">
             <div id="victoryContainer" class="pageContainer">

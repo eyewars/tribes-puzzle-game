@@ -40,3 +40,17 @@ img{
     font-size: 14px;
     margin-top: 40px;
 }
+
+#choiceContainer button{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+#introContainer button{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 40px;
+}
