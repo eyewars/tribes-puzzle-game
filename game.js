@@ -64,7 +64,7 @@ function checkAnswer(index){
             window.location.href = "hint4.html"
         }
     }else if (index == 7){
-        if (answer.value.toLowerCase() == "migration"){
+        if (answer.value.toLowerCase() == "language"){
             window.location.href = "language.html"
         }else{
             incorrectPuzzle4Count++;
